@@ -1,0 +1,11 @@
+//Update text within selected measures
+
+var FromString = "Old_Text";
+var ToString = "New_Text";
+
+foreach (var m in Selected.Measures)
+    {
+        m.Expression = m.Expression.Replace(FromString,ToString);
+        /* Cycle over all measures in model and replaces the 
+           FromString with the ToString */
+    }
