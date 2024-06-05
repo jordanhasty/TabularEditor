@@ -3,7 +3,7 @@
 Selected.Measures
 .Rename("Old_Name","New_Name");
 
-//Rename Selected Measures 
+//Remove the default suffix appended to copied measures in Tabular Editor
 
 Selected.Measures
 .Rename(" copy","");
