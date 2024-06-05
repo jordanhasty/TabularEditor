@@ -2,3 +2,8 @@
 
 Selected.Measures
 .Rename("Old_Name","New_Name");
+
+//Rename Selected Measures 
+
+Selected.Measures
+.Rename(" copy","");
