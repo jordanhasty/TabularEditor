@@ -1,0 +1,4 @@
+//Rename Selected Measures 
+
+Selected.Measures
+.Rename("Old_Name","New_Name");
